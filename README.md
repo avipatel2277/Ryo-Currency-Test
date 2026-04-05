@@ -38,7 +38,7 @@ Q1 and 2 edge cases and code explanation (I could not finish debugging the code 
 - return result
 
 
---- edge cases
+- edge cases
 - add_range(r): if it is inverted swap start and before anything, if the count is zero don't need to handle it specifically
 
 - contain(t): if empty then loop won't run and returns false, and for the boundary use <= on boh side to limit the range and handle that edge case
